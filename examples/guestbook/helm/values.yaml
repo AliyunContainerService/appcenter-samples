@@ -1,5 +1,5 @@
 frontend:
-  replicaCount: 3
+  replicaCount: 1
 
   image:
     repository: registry.cn-hongkong.aliyuncs.com/haoshuwei24/frontend
