@@ -2,7 +2,7 @@ frontend:
   replicaCount: 3
 
   image:
-    repository: registry.cn-hangzhou.aliyuncs.com/haoshuwei24/frontend
+    repository: registry.cn-hongkong.aliyuncs.com/haoshuwei24/frontend
     tag: "v2"
 
   envVars:
@@ -19,7 +19,7 @@ redis:
     replicaCount: 1
 
     image:
-      repository: registry.cn-hangzhou.aliyuncs.com/haoshuwei24/redis
+      repository: registry.cn-hongkong.aliyuncs.com/haoshuwei24/redis
       tag: "6.0.8"
 
     service:
@@ -30,7 +30,7 @@ redis:
     replicaCount: 2
 
     image:
-      repository: registry.cn-hangzhou.aliyuncs.com/haoshuwei24/redis-slave
+      repository: registry.cn-hongkong.aliyuncs.com/haoshuwei24/redis-slave
       tag: "v3"
 
     service:
